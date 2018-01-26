@@ -1,0 +1,113 @@
+body {
+	padding-top: 50px;
+}
+
+.navbar-inverse{
+	background: #5F0000;
+	min-height: 40px;
+}
+
+.navbar-inverse .dropdown-menu .divider{
+	background-color: #4F5361;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-brand{
+	padding: 10px 10px 10px 20px;
+	line-height: 17px;
+}
+.navbar-inverse .navbar-brand {
+	color: #FFBABA;
+	width: 100px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background: #490000;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background: #490000;
+}
+
+.navbar-text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar-nav > li > .dropdown-menu{
+	background: #5F0000;
+	box-shadow: none;
+}
+
+.navbar-nav > li > .dropdown-menu a{
+	color: #fff;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover{
+	background: #490000;
+}
+
+.container {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.row {
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#pagetitle {
+	margin-top: 0;
+}
+
+.pagetitle {
+	display: block;
+	margin: 0;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: solid 2px #F5D4D4;
+	color: #7A1E1E;
+}
+
+.parsley-error{
+	border: solid 1px red;
+	outline: none;
+}
+
+.parsley-error:focus{
+	outline: none;
+	box-shadow: none;
+	border: solid 1px red;
+}
+
+.parsley-error-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: red;
+}
+
+.deleteRow{
+	color:red;
+	cursor: pointer;
+}
+
+.deleteRow:hover{
+	text-decoration: underline;
+}
+
+
+
